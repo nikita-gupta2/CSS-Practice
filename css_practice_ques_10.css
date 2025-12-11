@@ -1,0 +1,42 @@
+.flex1{
+    border: 2px solid rgb(16, 142, 161);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    border-radius:10%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 4%;
+    background-color: grey;
+    text-align: center;
+}
+
+.flex2{
+    border: 2px solid rgb(16, 142, 161);
+    height: 50px;
+    width: 900px;
+    display: flex;
+    border-radius:10px;
+    background-color: pink;
+    color: black;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+.nav{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-left: 5px;
+    line-height:50px;
+}
